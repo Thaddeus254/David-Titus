@@ -241,10 +241,10 @@ const ContactPage = () => {
                               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-all duration-300"
                             >
                               <option value="">Select budget</option>
-                              <option value="$200 - $500">$200 - $500</option>
-                              <option value="$500 - $1000">$500 - $1000</option>
-                              <option value="$1000 - $2000">$1000 - $2000</option>
-                              <option value="$2000+">$2000+</option>
+                              <option value="Ksh. 500 - Ksh. 1000">Ksh. 500 - Kshs. 1000</option>
+                              <option value="Ksh. 1000 - Ksh. 5000">Ksh. 1000 - Ksh. 5000</option>
+                              <option value="Ksh. 5000 - Ksh. 20000">Ksh. 5000 - Ksh. 20000</option>
+                              <option value="Ksh. 2000+">Ksh. 2000+</option>
                             </select>
                           </div>
                         </div>
@@ -281,7 +281,7 @@ const ContactPage = () => {
                 <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-2xl p-8 shadow-xl">
                   <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
                     <MessageSquare className="w-6 h-6" />
-                    Get Quick Quote via WhatsApp
+                    Get Quick Quote
                   </h3>
                   <p className="text-green-100 mb-6">
                     Need a quick quote? Send me your project details via WhatsApp for faster response!
@@ -309,7 +309,6 @@ const ContactPage = () => {
                         <option value="Print Design">Print Design</option>
                         <option value="Digital Design">Digital Design</option>
                         <option value="Packaging Design">Packaging Design</option>
-                        <option value="UI/UX Design">UI/UX Design</option>
                         <option value="Art Direction">Art Direction</option>
                       </select>
                     </div>
@@ -327,7 +326,7 @@ const ContactPage = () => {
                       className="w-full bg-white text-green-600 py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
                     >
                       <MessageSquare size={20} />
-                      Get Quote on WhatsApp
+                      Get Quote
                     </button>
                   </form>
                 </div>

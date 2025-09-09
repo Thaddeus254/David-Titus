@@ -15,46 +15,54 @@ const Portfolio = () => {
 
   const projects = [
     {
-      id: 1,
-      title: 'Modern Tech Startup Brand',
-      category: 'branding',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg',
-      description: 'Complete brand identity design for an innovative tech startup'
-    },
-    {
-      id: 2,
-      title: 'Luxury Fashion Campaign',
-      category: 'print',
-      image: 'https://images.pexels.com/photos/3184294/pexels-photo-3184294.jpeg',
-      description: 'High-end print materials for luxury fashion brand'
-    },
-    {
-      id: 3,
-      title: 'E-commerce Website Design',
-      category: 'digital',
-      image: 'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg',
-      description: 'User-focused e-commerce platform design'
-    },
-    {
-      id: 4,
-      title: 'Organic Food Packaging',
-      category: 'packaging',
-      image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg',
-      description: 'Sustainable packaging design for organic food products'
-    },
-    {
       id: 5,
-      title: 'Corporate Annual Report',
-      category: 'print',
-      image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg',
-      description: 'Professional annual report design with infographics'
+      title: 'Caps Embroidery',
+      category: 'Branding',
+      image: '/Portfolio/5.jpg',
+      description: 'Elevate your brand with custom embroidered caps that combine style and professionalism.',
+      client: 'Sunblest',
+      year: '2023',
+      tags: ['Embroidery', 'Design', 'Merchandise']
     },
     {
       id: 6,
-      title: 'Mobile App Interface',
+      title: 'Reflectors Branding',
+      category: 'ui-ux',
+      image: '/Portfolio/6.jpg',
+      description: 'Print your brand a boost with custom-designed reflectors that leave a lasting impression.',
+      client: 'Several Clients',
+      year: '2024',
+      tags: ['Design', 'Print', 'Branding']
+    },
+    {
+      id: 7,
+      title: 'Stamps',
       category: 'digital',
-      image: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg',
-      description: 'Clean and intuitive mobile application interface'
+      image: '/Portfolio/7.jpg',
+      description: 'Custom-designed stamps for business branding and promotional use, adding a unique touch to your materials.',
+      client: 'Savory Delights',
+      year: '2023',
+      tags: ['Stamp Design', 'Branding', 'Marketing']
+    },
+    {
+      id: 8,
+      title: 'Sign-Posts',
+      category: 'digital',
+      image: '/Portfolio/9.jpg',
+      description: 'Custom-designed sign-posts for effective wayfinding and brand visibility in various environments.',
+      client: 'Cyber Cafe',
+      year: '2024',
+      tags: ['Signage Design', 'Branding', 'Outdoor']
+    },
+    {
+      id: 9,
+      title: 'Tear Drop Banners',
+      category: 'digital',
+      image: '/Portfolio/10.jpg',
+      description: 'Custom-designed tear drop banners for eye-catching outdoor advertising and brand promotion.',
+      client: 'Maxcure Hospital',
+      year: '2025',
+      tags: ['Banner Design', 'Outdoor', 'Marketing']
     }
   ];
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import PageTransition from '../components/PageTransition';
+import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 import { Palette, Monitor, Package, Camera, FileText, Smartphone, CheckCircle, ArrowRight } from 'lucide-react';
 
@@ -10,42 +11,28 @@ const ServicesPage = () => {
       title: 'Brand Identity Design',
       description: 'Creating memorable logos, color palettes, and complete brand guidelines that establish your unique market presence.',
       features: ['Logo Design', 'Brand Guidelines', 'Color Schemes', 'Typography'],
-      price: 'Starting at $500'
+      price: 'Varies with project scope'
     },
     {
       icon: FileText,
       title: 'Print Design',
       description: 'Professional print materials that make lasting impressions, from business cards to large-format displays.',
       features: ['Business Cards', 'Brochures', 'Posters', 'Annual Reports'],
-      price: 'Starting at $200'
-    },
-    {
-      icon: Monitor,
-      title: 'Digital Design',
-      description: 'Engaging digital graphics optimized for web and social media platforms to boost your online presence.',
-      features: ['Web Graphics', 'Social Media', 'Banners', 'Email Templates'],
-      price: 'Starting at $300'
+      price: 'as per project scope'
     },
     {
       icon: Package,
       title: 'Packaging Design',
       description: 'Eye-catching packaging solutions that protect your products while attracting customers on shelves.',
       features: ['Product Packaging', 'Label Design', '3D Mockups', 'Prototyping'],
-      price: 'Starting at $400'
-    },
-    {
-      icon: Smartphone,
-      title: 'UI/UX Design',
-      description: 'User-centered interface designs that create seamless and enjoyable digital experiences.',
-      features: ['Mobile Apps', 'Web Interfaces', 'Wireframes', 'Prototypes'],
-      price: 'Starting at $600'
+      price: 'Affodarble'
     },
     {
       icon: Camera,
       title: 'Art Direction',
       description: 'Complete creative direction for photo shoots, campaigns, and multi-platform brand experiences.',
       features: ['Photo Direction', 'Campaign Strategy', 'Creative Concepts', 'Brand Positioning'],
-      price: 'Starting at $800'
+      price: 'Pocket Friendly'
     }
   ];
 
@@ -124,10 +111,12 @@ const ServicesPage = () => {
                     ))}
                   </ul>
 
-                  <button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white py-3 px-6 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
-                    Get Quote
-                    <ArrowRight size={16} />
-                  </button>
+                  <Link to="/contact">
+  <button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white py-3 px-6 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
+    Get Quote
+    <ArrowRight size={16} />
+  </button>
+</Link>
                 </motion.div>
               ))}
             </div>
