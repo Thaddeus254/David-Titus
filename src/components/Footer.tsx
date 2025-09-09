@@ -1,20 +1,23 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Palette, Mail, Phone, MapPin, Facebook } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Palette, Mail, Phone, MapPin, Facebook } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Facebook, href: 'https://www.facebook.com/champe.titoz', label: 'Facebook' }
+    {
+      icon: Facebook,
+      href: "https://www.facebook.com/champe.titoz",
+      label: "Facebook",
+    },
   ];
 
   const quickLinks = [
-    { name: 'About', href: '/about' },
-    { name: 'Portfolio', href: '/portfolio' },
-    { name: 'Services', href: '/services' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'Gallery', href: '/gallery' }
+    { name: "About", href: "/about" },
+    { name: "Portfolio", href: "/portfolio" },
+    { name: "Services", href: "/services" },
+    { name: "Contact", href: "/contact" },
+    { name: "Gallery", href: "/gallery" },
   ];
-
 
   return (
     <footer className="bg-slate-900 text-white">
@@ -27,8 +30,9 @@ const Footer = () => {
               <span className="text-2xl font-bold">David Titus Ayoo</span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
-              Creative graphic designer passionate about crafting visual stories that captivate, 
-              inspire, and drive results for brands and businesses.
+              Creative graphic designer passionate about crafting visual stories
+              that captivate, inspire, and drive results for brands and
+              businesses.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -67,19 +71,27 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-orange-500 mr-3 flex-shrink-0" />
-                <a href="mailto:davytitoz456@gmail.com" className="text-gray-300 hover:text-orange-500 transition-colors duration-300 break-all">
+                <a
+                  href="mailto:davytitoz456@gmail.com"
+                  className="text-gray-300 hover:text-orange-500 transition-colors duration-300 break-all"
+                >
                   davytitoz456@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
                 <Phone className="w-5 h-5 text-orange-500 mr-3 flex-shrink-0" />
-                <a href="tel:+254769480189" className="text-gray-300 hover:text-orange-500 transition-colors duration-300">
+                <a
+                  href="tel:+254769480189"
+                  className="text-gray-300 hover:text-orange-500 transition-colors duration-300"
+                >
                   +254 769 480 189
                 </a>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 text-orange-500 mr-3 flex-shrink-0" />
-                <span className="text-gray-300">P.O Box 7448-40100, Kisumu, Kenya</span>
+                <span className="text-gray-300">
+                  P.O Box 7448-40100, Kisumu, Kenya
+                </span>
               </div>
             </div>
           </div>
@@ -90,10 +102,10 @@ const Footer = () => {
             © 2025 David Titus Ayoo. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm mt-4 md:mt-0 text-center md:text-right">
-            Crafted with passion and creativity by{' '}
-            <a 
-              href="https://nexacraft.co.ke" 
-              target="_blank" 
+            Crafted with passion and creativity by{" "}
+            <a
+              href="https://nexacraft.co.ke"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-orange-500 hover:text-orange-400 transition-colors duration-300"
             >
